@@ -1,0 +1,18 @@
+fire | water -> 1 check
+fire/grass | water -> 2 checks
+fire/grass | water/flying -> 4 checks
+
+fire | water -> 1 check
+fire/grass | water -> 2 checks
+fire/grass | water/flying -> 4 checks
+
+= 8 checks
+
+
+
+
+aron -> numel -> aron2
+
+rock/steel  fire/ground rock/steel
+
+if fire -> rock && fire --> rock
