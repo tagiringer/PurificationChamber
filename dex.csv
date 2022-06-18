@@ -84,3 +84,12 @@ DexNum,Name,Level,Location,Trainer,PrimaryType,SecondaryType
 112,Rhydon,46,Citadark Isle,Cipher Boss Greevil,ground,rock
 103,Exeggutor,46,Citadark Isle,Cipher Boss Greevil,grass,psychic
 149,Dragonite,55,Gateon Port,Wanderer Miror. B,dragon,flying
+27,Sandshrew,11,RockGround Spot,Wild,ground,ground
+207,Gligar,11,RockGround Spot,Wild,ground,flying
+328,Trapinch,11,RockGround Spot,Wild,ground,ground
+187,Hoppip,11,Oasis Spot,Wild,grass,flying
+231,Phanpy,11,Oasis Spot,Wild,ground,ground
+283,Surskit,11,Oasis Spot,Wild,water,bug
+41,Zubat,11,Cave Spot,Wild,poison,flying
+304,Aron,11,Cave Spot,Wild,rock,steel
+194,Wooper,11,Cave Spot,Wild,water,ground
