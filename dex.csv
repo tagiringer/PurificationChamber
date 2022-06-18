@@ -1,0 +1,86 @@
+DexNum,Name,Level,Location,Trainer,PrimaryType,SecondaryType
+133,Eevee,10,Starter,You,normal,normal
+216,Teddiursa,11,Krane's Lab,Spy Naps,normal,normal
+165,Ledyba,10,Gateon Port,Casual Guy Cyle,bug,flying
+261,Poochyena,10,Gateon Port,Bodybuilder Kilen,dark,dark
+228,Houndour,17,Cipher Lab,Cipher Peon Resix,dark,fire
+343,Baltoy,17,Cipher Lab,Cipher Peon Browsix,ground,psychic
+363,Spheal,17,Cipher Lab,Cipher Peon Blusix,ice,water
+179,Mareep,17,Cipher Lab,Cipher Peon Yellosix,electric,electric
+316,Gulpin,17,Cipher Lab,Cipher Peon Purpsix,poison,poison
+273,Seedot,17,Cipher Lab,Cipher Peon Greesix,grass,grass
+167,Spinarak,14,Cipher Lab,Cipher Peon Nexir,bug,poison
+322,Numel,14,Cipher Lab,Cipher Peon Solox,fire,ground
+285,Shroomish,15,Cipher Lab,Cipher R&D Klots,grass,grass
+318,Carvanha,15,Cipher Lab,Cipher Peon Cabol,water,dark
+301,Delcatty,18,Cipher Lab,Cipher Admin Lovrina,normal,normal
+100,Voltorb,19,Cave PokéSpot,Wanderer Miror.B,electric,electric
+296,Makuhita,18,ONBS Station,Cipher Peon Torkin,fighting,fighting
+37,Vulpix,18,ONBS Station,Cipher Peon Mesin,fire,fire
+355,Duskull,19,ONBS Station,Cipher Peon Labor,ghost,ghost
+280,Ralts,20,ONBS Station Top,Cipher Peon Feldas,psychic,psychic
+303,Mawile,22,ONBS Station Top,Cipher Cmdr. Exol,steel,steel
+361,Snorunt,20,Phenac Mayors House,Cipher Peon Exinn,ice,ice
+204,Pineco,20,Phenac Mayors House,Cipher Peon Gonrag,bug,bug
+177,Natu,22,Phenac Training School,Cipher Peon Eloin,psychic,flying
+315,Roselia,22,Phenac Training School,Cipher Peon Fasin,grass,poison
+52,Meowth,22,Phenac Training School,Cipher Peon Fostin,normal,normal
+220,Swinub,22,Phenac Stadium,Cipher Peon Greck,ice,ground
+21,Spearow,22,Phenac Stadium,Cipher Peon Ezin,normal,flying
+88,Grimer,23,Phenac Stadium,Cipher Peon Faltly,poison,poison
+86,Seel,23,Phenac Stadium,Cipher Peon Egrog,water,water
+337,Lunatone,25,Phenac Stadium,Cipher Admin Snattle,rock,psychic
+299,Nosepass,26,Phenac Stadium,Wanderer Miror. B,rock,rock
+335,Zangoose,28,Cipher Key Lair,Thug Zook,normal,normal
+175,Togepi,25,Outskirt Stand,Hordel,normal,normal
+239,Elekid,20,Outskirt Stand,Trade Togepi back to Hordel,electric,electric
+46,Paras,28,Cipher Key Lair,Cipher Peon Humah,bug,grass
+58,Growlithe,28,Cipher Key Lair,Cipher Peon Humah,fire,fire
+90,Shellder,29,Cipher Key Lair,Cipher Peon Gorog,water,water
+15,Beedrill,30,Cipher Key Lair,Cipher Peon Lok,bug,poison
+17,Pidgeotto,30,Cipher Key Lair,Cipher Peon Lok,normal,flying
+114,Tangela,30,Cipher Key Lair,Cipher Peon Targ,grass,grass
+12,Butterfree,30,Cipher Key Lair,Cipher Peon Targ,bug,flying
+82,Magneton,30,Cipher Key Lair,Cipher Peon Snidle,electric,steel
+49,Venomoth,32,Cipher Key Lair,Cipher Peon Angic,bug,poison
+70,Weepinbell,32,Cipher Key Lair,Cipher Peon Angic,grass,poison
+24,Arbok,33,Cipher Key Lair,Cipher Peon Smarton,poison,poison
+57,Primeape,34,Cipher Key Lair,Cipher Admin Gorigan,fighting,fighting
+97,Hypno,34,Cipher Key Lair,Cipher Admin Gorigan,psychic,psychic
+55,Golduck,33,Citadark Isle,Navigator Abson,water,water
+302,Sableye,33,Citadark Isle,Navigator Abson,dark,ghost
+20,Raticate,34,Citadark Isle,Chaser Furgy,normal,normal
+85,Dodrio,34,Citadark Isle,Chaser Furgy,normal,flying
+83,Farfetch'd,36,Citadark Isle,Cipher Admin Lovrina,normal,flying
+334,Altaria,36,Citadark Isle,Cipher Admin Lovrina,dragon,flying
+115,Kangaskhan,36,Citadark Isle,Cipher Peon Litnar,normal,normal
+354,Banette,37,Citadark Isle,Cipher Peon Litnar,ghost,ghost
+126,Magmar,36,Citadark Isle,Cipher Peon Grupel,fire,fire
+127,Pinsir,35,Citadark Isle,Cipher Peon Grupel,bug,bug
+219,Magcargo,38,Citadark Isle,Cipher Peon Kolest,fire,rock
+78,Rapidash,40,Citadark Isle,Cipher Peon Kolest,fire,fire
+106,Hitmonlee,38,Citadark Isle,Cipher Peon Petro,fighting,fighting
+107,Hitmonchan,38,Citadark Isle,Cipher Peon Karbon,fighting,fighting
+108,Lickitung,38,Citadark Isle,Cipher Peon Gefta,normal,normal
+123,Scyther,40,Citadark Isle,Cipher Peon Leden,bug,flying
+113,Chansey,39,Citadark Isle,Cipher Peon Leden,normal,normal
+338,Solrock,41,Citadark Isle,Cipher Admin Snattle,rock,psychic
+121,Starmie,41,Citadark Isle,Cipher Admin Snattle,water,psychic
+125,Electabuzz,43,Citadark Isle,Cipher Admin Ardos,electric,electric
+277,Swellow,43,Citadark Isle,Cipher Admin Ardos,normal,flying
+143,Snorlax,43,Citadark Isle,Cipher Admin Ardos,normal,normal
+62,Poliwrath,43,Citadark Isle,Cipher Admin Gorigan,water,fighting
+122,Mr. Mime,43,Citadark Isle,Cipher Admin Gorigan,psychic,psychic
+51,Dugtrio,40,Citadark Isle,Cipher Peon Stron,ground,ground
+310,Manectric,44,Citadark Isle,Cipher Admin Eldes,electric,electric
+373,Salamence,50,Citadark Isle,Cipher Admin Eldes,dragon,flying
+105,Marowak,44,Citadark Isle,Cipher Admin Eldes,ground,ground
+131,Lapras,44,Citadark Isle,Cipher Admin Eldes,water,ice
+249,Lugia,50,Citadark Isle,Cipher Boss Greevil,psychic,flying
+144,Articuno,50,Citadark Isle,Cipher Boss Greevil,ice,flying
+145,Zapdos,50,Citadark Isle,Cipher Boss Greevil,electric,flying
+146,Moltres,50,Citadark Isle,Cipher Boss Greevil,fire,flying
+128,Tauros,46,Citadark Isle,Cipher Boss Greevil,normal,normal
+112,Rhydon,46,Citadark Isle,Cipher Boss Greevil,ground,rock
+103,Exeggutor,46,Citadark Isle,Cipher Boss Greevil,grass,psychic
+149,Dragonite,55,Gateon Port,Wanderer Miror. B,dragon,flying

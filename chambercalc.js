@@ -1,6 +1,15 @@
 import Node from "./Node.js"
 import Pokemon from "./Pokemon.js"
 import Graph from "./Graph.js"
+// const csv = require('csv-parse');
+// const fs = require('fs')
+
+import * as fs from "fs";
+import * as csv from "csv-parse";
+
+
+
+
 
 const supereffective = new Map()
 const weak = new Map()
@@ -117,25 +126,64 @@ function getTempoScore(graph){
     return tempoScore;
 }
 
+async function seedDex(){
+
+    const currentDir = String.raw`C:\Users\natha\Desktop\Development\PurificationChamber`   
+
+    const csvData = [];
+
+    var dexMap = new Map();
+
+    await fs.createReadStream(currentDir + '/dex.csv')
+        .pipe(
+            csv.parse({
+                delimiter: ','
+            })
+        )
+        .on('data', function (dataRow){
+
+            dexMap.set(dataRow[1], [dataRow[5], dataRow[6]])
+
+            //console.table(dexMap);
+            //csvData.push(dataRow);
+        })
+        .on('end', function () {
+            //console.table(dexMap);
+            
+        }); 
+
+    
+   
+
+    console.table(dexMap)
+
+    return dexMap
+
+
+}
+
 const main = () => {
-    let graph = new Graph();
-    graph.addEdge(1, 2);
-    graph.addEdge(2, 3);
-    graph.addEdge(3, 4);
-    graph.addEdge(4, 1);
+    // let graph = new Graph();
+    // graph.addEdge(1, 2);
+    // graph.addEdge(2, 3);
+    // graph.addEdge(3, 4);
+    // graph.addEdge(4, 1);
   
-    let aron1 = new Pokemon(["steel", "rock"]);
-    let vulpix = new Pokemon(["fire", "fire"]);
-    let aron2 = new Pokemon(["steel", "rock"]);
-    let numel = new Pokemon(["fire", "ground"]);
+    // let aron1 = new Pokemon(["steel", "rock"]);
+    // let vulpix = new Pokemon(["fire", "fire"]);
+    // let aron2 = new Pokemon(["steel", "rock"]);
+    // let numel = new Pokemon(["fire", "ground"]);
   
-    seedPokemon(graph, 1, aron1);
-    seedPokemon(graph, 2, vulpix);
-    seedPokemon(graph, 3, aron2);
-    seedPokemon(graph, 4, numel);
+    // seedPokemon(graph, 1, aron1);
+    // seedPokemon(graph, 2, vulpix);
+    // seedPokemon(graph, 3, aron2);
+    // seedPokemon(graph, 4, numel);
   
-    let score = getTempoScore(graph);
-    console.log({ tempoScore: score });
+    // let score = getTempoScore(graph);
+    // console.log({ tempoScore: score });
+
+    var data = seedDex();
+    console.table(data);
 };
 
 main();
