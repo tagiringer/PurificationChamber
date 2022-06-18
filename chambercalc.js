@@ -1,11 +1,8 @@
 import Node from "./Node.js"
 import Pokemon from "./Pokemon.js"
 import Graph from "./Graph.js"
-// const csv = require('csv-parse');
-// const fs = require('fs')
 
 import * as fs from "fs";
-import * as csv from "csv-parse";
 
 
 
@@ -112,7 +109,6 @@ function getTempoScore(graph){
     let tempoScore = 0;
     for(let i = 1; i < 5; i++){
         
-        //I was lazy
         let curNode = graph.getNode(i);
 
         if(validateNode(curNode.getPokemon().getTypes(), curNode.getAdjacents()[0].getPokemon().getTypes(), curNode.getAdjacents()[1].getPokemon().getTypes()))
@@ -126,39 +122,16 @@ function getTempoScore(graph){
     return tempoScore;
 }
 
-async function seedDex(){
-
-    const currentDir = String.raw`C:\Users\natha\Desktop\Development\PurificationChamber`   
-
-    const csvData = [];
-
-    var dexMap = new Map();
-
-    await fs.createReadStream(currentDir + '/dex.csv')
-        .pipe(
-            csv.parse({
-                delimiter: ','
-            })
-        )
-        .on('data', function (dataRow){
-
-            dexMap.set(dataRow[1], [dataRow[5], dataRow[6]])
-
-            //console.table(dexMap);
-            //csvData.push(dataRow);
-        })
-        .on('end', function () {
-            //console.table(dexMap);
-            
-        }); 
-
-    
-   
-
-    console.table(dexMap)
-
-    return dexMap
-
+function seedDex(){
+    // const currentDir = String.raw`C:\Users\natha\Desktop\Development\PurificationChamber`   
+    const currentDir = `.`;
+    const dexMap = new Map();
+    let textBuffer = fs.readFileSync(currentDir + '/dex.csv') // returns a buffer representing the text
+    textBuffer.toString().split(/\n/).forEach(line => {
+        let dataRow = line.split(',') // split csv into array of ,'s
+        dexMap.set(dataRow[1], [dataRow[5], dataRow[6]]) // grab the data you need
+    })
+    return dexMap; 
 
 }
 
@@ -182,7 +155,8 @@ const main = () => {
     // let score = getTempoScore(graph);
     // console.log({ tempoScore: score });
 
-    var data = seedDex();
+    // let data = await seedDex();
+    let data = seedDex();
     console.table(data);
 };
 
